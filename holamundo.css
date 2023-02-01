@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+}
+nav {
+    margin: 0 auto;
+    width: 30vw;
+}
+nav ul {
+    display: flex;
+    padding-inline-start: 0;
+    list-style-type: none;
+    justify-content: space-around;
+}
