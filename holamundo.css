@@ -12,7 +12,7 @@ nav ul {
     justify-content: space-around;
 }
 img {
-    filter: blur(1px);
+    filter: sepia(100%);
     transition: all 1s;
     width: 10vw;
 }
