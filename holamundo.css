@@ -11,6 +11,17 @@ nav ul {
     list-style-type: none;
     justify-content: space-around;
 }
+img {
+    filter: blur(1px);
+    transition: all 1s;
+    width: 10vw;
+}
+img[src$=".jpg"] {border: 0.2rem solid salmon;}
+img[alt=""] {border: 0.3rem dotted black;}
+
+img:hover {
+    filter: none;
+}
 @media (max-width: 650px) {
   
     nav {
