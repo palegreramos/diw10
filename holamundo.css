@@ -3,11 +3,24 @@ h1 {
 }
 nav {
     margin: 0 auto;
-    width: 30vw;
+    width: 40vw;
 }
 nav ul {
     display: flex;
     padding-inline-start: 0;
     list-style-type: none;
     justify-content: space-around;
+}
+@media (max-width: 650px) {
+  
+    nav {
+        width: 80vw;
+    }
+
+    nav ul {
+        
+        justify-content: space-between;
+    }
+  
+
 }
